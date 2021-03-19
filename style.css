@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+header {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    height: 10%;
+    background-color: rgba(52, 46, 117, 0.9);
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    width: 10%;
+    margin-right: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo>li>a {
+    font-weight: 900;
+    color: white;
+    font-size: 24px;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-evenly;
+    /* border:2px solid red; */
+    width: 60%;
+    margin-right: 200px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.mid>li>a {
+    color: white;
+    padding-bottom: 5px;
+    border: 3px solid transparent;
+    transition: 0.5s;
+}
+
+.mid>li>a:hover {
+    border-bottom-color: red;
+    color: red;
+}
+
+.end {
+    display: flex;
+    justify-content: space-evenly;
+    /* border:2px solid red; */
+    width: 15%;
+    object-fit: contain;
+}
+
+main {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(52, 46, 117, 0.9);
+}
+
+.left {
+    border: 5px solid yellow;
+    width: 50%;
+}
+
+.right {
+    border: 5px solid coral;
+    width: 50%;
+}
+
+.one {
+    width: 10px;
+    background-color: white;
+    height: 3px;
+    margin-bottom: 3px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.two {
+    width: 20px;
+    background-color: white;
+    height: 3px;
+    margin-bottom: 3px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.three {
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    border-radius: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: rgb(223, 217, 217);
+    letter-spacing: .1rem;
+}
+
+.center-text {
+    width: 600px;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+button {
+    padding: 15px 35px;
+    background: transparent;
+    border: 2px solid rgb(252, 62, 62);
+    color: rgb(252, 62, 62);
+    font-weight: 700;
+    margin: 50px 0px;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: rgb(252, 62, 62);
+    color: white;
+}
+
+.image {
+    width: 900px;
+    height: 150px;
+}
+
+.image>img {
+    width: 900px;
+    object-fit: contain;
+}
